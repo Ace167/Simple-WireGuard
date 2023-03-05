@@ -1,2 +1,3 @@
 # Simple WireGuard
- A simple WireGuard VPN Linux Ubuntu application
+
+A simple Linux Ubuntu application for WireGuard VPN
