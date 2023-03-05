@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WireGuardOFF
+Comment=Switch OFF WireGuard
+Exec=/path/to/WireGuardVPN/shutdown.sh
+Icon=/path/to/WireGuardVPN/icon/wireguard.png
+Terminal=true
+Type=Application
+Categories=Network;
+

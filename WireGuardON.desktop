@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WireGuardON
+Comment=Switch ON WireGuard
+Exec=sh -c "sudo systemctl restart systemd-resolved && /path/to/WireGuardVPN/run-wireguard.sh"
+#Exec=/path/to/WireGuardVPN/run-wireguard.sh
+Icon=/path/to/WireGuardVPN/icon/wireguard.png
+Terminal=true
+Type=Application
+Categories=Network;
