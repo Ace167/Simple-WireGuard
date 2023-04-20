@@ -26,7 +26,7 @@ selected=$(zenity --list --title="Select a configuration file to launch" --colum
 
 # If a configuration file was selected, launch the VPN connection
 if [[ -n "$selected" ]]; then
-sudo wg-quick up /home/ace67/Desktop/WireGuardVPN/"$selected"
+sudo wg-quick up /home/user_name/Desktop/WireGuardVPN/"$selected"
 fi
 
 ##########################################################END############################################################
